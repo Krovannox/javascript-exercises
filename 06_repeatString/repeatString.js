@@ -2,7 +2,7 @@ const repeatString = function(word, times) {
     let newString = '';
 
     if (times < 0) {
-        return console.log('ERROR');
+        return 'ERROR';
     } else {
         for (let i = times; i > 0; i--) {
         newString = newString + word;
